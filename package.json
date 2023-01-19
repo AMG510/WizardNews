@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "start:dev": "nodemon app.js",
-    "start": "node app.js",
-    "build": "webpack --config webpack.config.js"
+    "start": "node app.js"
+    
   },
   "keywords": [],
   "author": "",
