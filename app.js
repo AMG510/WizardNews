@@ -79,7 +79,7 @@ res.send(html);
 });  
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(404).send("NOT_FOUND");
+  res.status(404).send("Accio Page! 🧙‍♀️ ... Page Not Found");
 });  
 
 const { PORT = 1337 } = process.env;
